@@ -1,0 +1,26 @@
+{
+  "name": "claudiajs-demo",
+  "version": "0.1.0",
+  "description": "Claudia.js Demo Project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "create-app": "claudia create --region eu-west-1 --api-module index",
+    "update": "claudia update",
+    "test": "mocha --recursive",
+    "itest-lambda": "mocha --recursive itest-lambda",
+    "itest-api-gateway": "mocha --recursive itest-api-gateway"
+  },
+  "dependencies": {
+    "claudia-api-builder": "2.0.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.6.12",
+    "chai": "3.5.0",
+    "claudia": "2.1.1",
+    "mocha": "3.1.2",
+    "request": "2.75.0",
+    "request-promise": "4.1.1",
+    "sinon": "1.17.6"
+  }
+}

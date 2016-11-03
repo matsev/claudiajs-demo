@@ -1,0 +1,15 @@
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS X
+.DS_Store
+
+# Node
+node_modules
+npm-debug.log
+
+# Test results
+xunit-*.xml
